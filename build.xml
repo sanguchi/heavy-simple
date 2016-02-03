@@ -22,6 +22,6 @@
         <java jar="build/jar/Interpreter.jar" fork="true"/>
     </target>
     
-    <target name="main" depends"build,jar,clean"/>
+    <target name="main" depends="build,jar,clean"/>
     
 </project>
