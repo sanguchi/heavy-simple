@@ -6,12 +6,12 @@
 
     <target name="compile">
         <mkdir dir="build/classes"/>
-        <javac srcdir="src" destdir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes" includeantruntime="false"/>
     </target>
 
     <target name="jar">
         <mkdir dir="build/jar"/>
-        <jar destfile="build/jar/Interpreter.jar" basedir="build/classes">
+        <jar destfile="Interpreter.jar" basedir="build/classes">
             <manifest>
                 <attribute name="Main-Class" value="Interpreter"/>
             </manifest>
