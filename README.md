@@ -1,5 +1,6 @@
 # heavy-simple
 BASIC-Like Syntax, but java powered :P
+[![Build Status](https://travis-ci.org/sanguchi/heavy-simple.png?branch=master)](https://travis-ci.org/sanguchi/heavy-simple)
 #### ENGINE SYNTAX:
 ```xml
 ;this is a comment :P

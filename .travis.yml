@@ -4,3 +4,5 @@ jdk:
 
 os:
   - linux
+script: ant main
+

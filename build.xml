@@ -22,9 +22,6 @@
         <java jar="build/jar/Interpreter.jar" fork="true"/>
     </target>
     
-    <target name="test">
-        <mkdir dir="build/classes"/>
-        <javac srcdir="src" destdir="build/classes"/>
-    </target>
+    <target name="main" depends"build,jar,clean"/>
     
 </project>
